@@ -1,0 +1,618 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout>
+  <span id="top" aria-hidden="true"></span>
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-brand" href="#top">Dimitar Enchev</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#ventures">Ventures</a>
+        <a href="#philosophy">Philosophy</a>
+        <a href="#portfolio">Investments</a>
+        <a href="#philanthropy">Philanthropy</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============= HERO ============= -->
+  <header class="hero">
+    <div class="hero-particles" aria-hidden="true">
+      <span class="particle" style="--x:12%; --y:25%; --s:7px;  --d:0s;    --dx: 60px;  --dy:-110px;"></span>
+      <span class="particle" style="--x:78%; --y:18%; --s:5px;  --d:3s;    --dx:-50px;  --dy:-80px;"></span>
+      <span class="particle" style="--x:22%; --y:72%; --s:8px;  --d:6s;    --dx: 70px;  --dy:-130px;"></span>
+      <span class="particle" style="--x:86%; --y:62%; --s:6px;  --d:9s;    --dx:-40px;  --dy:-90px;"></span>
+      <span class="particle" style="--x:42%; --y:14%; --s:5px;  --d:1.5s;  --dx: 30px;  --dy:-70px;"></span>
+      <span class="particle" style="--x:64%; --y:80%; --s:9px;  --d:4.5s;  --dx:-60px;  --dy:-140px;"></span>
+      <span class="particle" style="--x:8%;  --y:50%; --s:4px;  --d:7.5s;  --dx: 40px;  --dy:-60px;"></span>
+      <span class="particle" style="--x:94%; --y:40%; --s:6px;  --d:10.5s; --dx:-30px;  --dy:-100px;"></span>
+      <span class="particle" style="--x:34%; --y:46%; --s:5px;  --d:2.2s;  --dx: 50px;  --dy:-120px;"></span>
+      <span class="particle" style="--x:70%; --y:50%; --s:4px;  --d:5.8s;  --dx:-40px;  --dy:-70px;"></span>
+    </div>
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Entrepreneur · Investor</div>
+          <p class="hero-tagline">
+            I&rsquo;m a founder and investor with two decades of experience scaling companies across renewable energy, sustainability, and technology. With an early focus on scale and impact, I&rsquo;ve helped build several globally significant businesses from the ground up.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <div class="stat-num" data-target="20" data-suffix="+">0</div>
+              <div class="stat-label">Years Building<br />&amp; Investing</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num" data-target="4" data-prefix="$" data-suffix="B+">0</div>
+              <div class="stat-label">Capital<br />Raised</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num" data-target="4" data-suffix="">0</div>
+              <div class="stat-label">Companies<br />Founded</div>
+            </div>
+            <div class="stat">
+              <div class="stat-num" data-target="11" data-suffix="+">0</div>
+              <div class="stat-label">Portfolio<br />Investments</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portrait-parallax" data-parallax="-0.06">
+          <div class="portrait-wrap">
+            <div class="portrait-breathe">
+              <img src="/portrait.jpg" alt="Dimitar Enchev" class="portrait" width="720" height="900" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============= ABOUT ============= -->
+  <section id="about">
+    <div class="container">
+      <div class="section-label">— About</div>
+      <h2 class="section-title">A multi-decade vantage on how <em>real</em> companies and technologies get built.</h2>
+      <div class="about-grid">
+        <aside class="about-aside reveal">
+          &ldquo;Abundance is engineered, not assumed. The intersection of low-cost renewable energy, powerful AI, and the industrial systems built on top of them is where the next economy &mdash; and the planet that hosts it &mdash; will thrive.&rdquo;
+        </aside>
+        <div class="about-body reveal delay-2">
+          <p>My career spans the full lifecycle of innovation &mdash; from concept to global market leadership. As an operator, I built <strong>CWP Renewables</strong> (the largest renewable energy company in Australia, exited in 2023 in a multi-billion transaction), developed some of Europe&rsquo;s largest renewable energy projects, and raised more than <strong>$4 billion</strong> in project finance and equity.</p>
+          <p>As Managing Partner at <strong>PostScriptum Ventures</strong> and an active angel investor, I back high-conviction deep tech businesses across <strong>AI, advanced manufacturing, applied robotics, biotech, electrification, and frontier hardware</strong>. The thesis is consistent: technologies with genuine moats, building real things in the real world, with founders capable of operating at global scale.</p>
+          <p>I serve as a Board Member of the <strong>Bulgarian Venture Capital Association</strong> and a Member of the <strong>European Council on Foreign Relations</strong>. I&rsquo;ve been a keynote speaker at COP26, COP28, the World Hydrogen Congress, the Ukraine Recovery Conference, Green Transition Forum, and the Dii Leadership Summit, among others.</p>
+          <p>I studied Economics, Mathematics, and Computer Science at <strong>Swarthmore College</strong> (USA) and the <strong>London School of Economics</strong> (UK).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= VENTURES ============= -->
+  <section id="ventures">
+    <div class="container">
+      <div class="section-label reveal">— Ventures</div>
+      <h2 class="section-title reveal">Companies <em>built</em>, not just backed.</h2>
+      <div class="ventures">
+        <div class="venture reveal" data-mx-track>
+          <div class="venture-role">Cofounder · CEO Europe · Board Director</div>
+          <div class="venture-name">
+            <a href="https://cwp.global/" target="_blank" rel="noopener">CWP Global <span class="arrow">↗</span></a>
+          </div>
+          <p class="venture-desc">A global pioneer of large-scale renewable energy with over 2GW of realised capacity globally. Founded CWP Renewables (Australia&rsquo;s largest renewables platform, exited in 2023 in a multi-billion transaction), CWP Europe (a leading European developer with a 7GW portfolio), and H1 Energy (a pioneer in giga-scale Power-to-X projects, developing a 100GW+ portfolio).</p>
+          <span class="venture-tag">Energy Infrastructure</span>
+        </div>
+
+        <div class="venture reveal delay-1" data-mx-track>
+          <div class="venture-role">Cofounder · Managing Partner</div>
+          <div class="venture-name">
+            <a href="https://www.postscriptum.com/" target="_blank" rel="noopener">PostScriptum Ventures <span class="arrow">↗</span></a>
+          </div>
+          <p class="venture-desc">An investment fund with a portfolio of sustainable investments. Established in 2006, PostScriptum and its subsidiaries have been among the global pioneers in the energy transition, investing in wind and solar energy, BESS, biomass, energy efficiency, hydrogen, sustainable building materials, and technology.</p>
+          <span class="venture-tag">Venture Capital · Private Equity</span>
+        </div>
+
+        <div class="venture reveal delay-2" data-mx-track>
+          <div class="venture-role">Cofounder</div>
+          <div class="venture-name">
+            <a href="https://heliosmarine.io/" target="_blank" rel="noopener">Helios Marine <span class="arrow">↗</span></a>
+          </div>
+          <p class="venture-desc">A European full-stack manufacturer of solar-electric marine vessels and components. Helios designs and produces the batteries, power electronics, software/OS, and the vessels themselves &mdash; operating at the intersection of advanced manufacturing and marine electrification.</p>
+          <span class="venture-tag">Advanced Manufacturing · Marine Electrification</span>
+        </div>
+
+        <div class="venture reveal delay-3" data-mx-track>
+          <div class="venture-role">Founder</div>
+          <div class="venture-name">
+            <a href="https://darkmattertrading.eu/" target="_blank" rel="noopener">Dark Matter Trading <span class="arrow">↗</span></a>
+          </div>
+          <p class="venture-desc">A proprietary quantitative research firm providing algorithmic liquidity across European energy markets. Combines elite quantitative methods with proprietary AI to model the European power grid as a complex non-linear system &mdash; translating physical-world energy dynamics into systematic trading.</p>
+          <span class="venture-tag">High-Frequency Algorithmic Trading</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= PHILOSOPHY ============= -->
+  <section id="philosophy">
+    <div class="container">
+      <div class="section-label reveal">— Investment Philosophy</div>
+      <h2 class="section-title reveal">Backing <em>builders</em> of consequential things.</h2>
+      <div class="about-grid">
+        <aside class="about-aside reveal">
+          &ldquo;Sustainable progress is the only kind of progress.&rdquo;
+        </aside>
+        <div class="philosophy reveal delay-2">
+          <p style="margin-bottom: 32px;">I look for technologies with real moats &mdash; physical, scientific, or systems-level &mdash; being built by founders willing to take on the difficult, multi-year work that creates <em>durable</em> companies. Software is necessary but rarely sufficient. The interesting frontier sits where AI, hard engineering, and deep domain expertise compound into businesses that reshape industries.</p>
+          <p>A second conviction runs underneath the first: a better planet and a stronger economy are built from the same materials. Two decades of experience has shown me that <em>lasting</em> progress at scale can only be achieved by deploying capital efficiently and building sustainably for the long-haul.</p>
+        </div>
+      </div>
+      <div class="philosophy-pillars">
+        <div class="pillar reveal">
+          <div class="pillar-num">— 01</div>
+          <div class="pillar-title">Hard problems, real moats</div>
+          <p class="pillar-body">Bias toward technical depth and engineering complexity over pure software plays. The kinds of companies where execution alone is a competitive advantage and reproduction is genuinely difficult.</p>
+        </div>
+        <div class="pillar reveal delay-1">
+          <div class="pillar-num">— 02</div>
+          <div class="pillar-title">Founders who can scale</div>
+          <p class="pillar-body">Strategic vision plus operational stamina. Leaders who can navigate complex regulation, secure substantial capital, and conquer international markets — not just optimize a funnel.</p>
+        </div>
+        <div class="pillar reveal delay-2">
+          <div class="pillar-num">— 03</div>
+          <div class="pillar-title">Active partnership</div>
+          <p class="pillar-body">Capital is necessary but rarely the constraint. Where my expertise compounds the financial contribution — opening markets, refining models, recruiting — is where I want to lean in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= PORTFOLIO ============= -->
+  <section id="portfolio">
+    <div class="container">
+      <div class="section-label reveal">— VC / Angel Investments</div>
+      <h2 class="section-title reveal">A selection of <em>operating</em> investments.</h2>
+
+      <div class="portfolio-grid reveal">
+        <a href="https://ai-build.com/" target="_blank" rel="noopener" class="pf-item" data-domain="ai-build.com" data-name="Aibuild">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="AI Build" /></div>
+          <div class="pf-meta"><div class="pf-name">AI Build</div><div class="pf-sector">AI · Additive Manufacturing</div></div>
+        </a>
+        <a href="https://octaipipe.ai/" target="_blank" rel="noopener" class="pf-item" data-domain="octaipipe.ai" data-name="OctaiPipe">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="OctaiPipe" /></div>
+          <div class="pf-meta"><div class="pf-name">OctaiPipe</div><div class="pf-sector">Federated Edge AI</div></div>
+        </a>
+        <a href="https://flr.io/" target="_blank" rel="noopener" class="pf-item" data-local="/fuzzy-logic-logo.webp" data-name="Fuzzy Logic">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Fuzzy Logic Robotics" /></div>
+          <div class="pf-meta"><div class="pf-name">Fuzzy Logic Robotics</div><div class="pf-sector">AI · Industrial Robotics</div></div>
+        </a>
+        <a href="https://modelwise.ai/" target="_blank" rel="noopener" class="pf-item" data-domain="modelwise.ai" data-name="Modelwise">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Modelwise" /></div>
+          <div class="pf-meta"><div class="pf-name">Modelwise</div><div class="pf-sector">AI · Functional Safety</div></div>
+        </a>
+        <a href="https://www.dc-connected.de/" target="_blank" rel="noopener" class="pf-item" data-domain="dc-connected.de" data-name="DC Connected">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="DC Connected" /></div>
+          <div class="pf-meta"><div class="pf-name">DC Connected</div><div class="pf-sector">AI · Vehicle Diagnostics</div></div>
+        </a>
+        <a href="https://www.curileum.com/" target="_blank" rel="noopener" class="pf-item" data-domain="curileum.com" data-name="Curileum">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Curileum" /></div>
+          <div class="pf-meta"><div class="pf-name">Curileum Discovery</div><div class="pf-sector">Biotech · Oncology Prevention</div></div>
+        </a>
+        <a href="https://arboreal.com/" target="_blank" rel="noopener" class="pf-item" data-domain="arboreal.com" data-name="Arboreal">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Arboreal" /></div>
+          <div class="pf-meta"><div class="pf-name">Arboreal</div><div class="pf-sector">Mass Timber · Construction</div></div>
+        </a>
+        <a href="https://www.ampeco.com/" target="_blank" rel="noopener" class="pf-item" data-domain="ampeco.com" data-name="AMPECO">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Ampeco" /></div>
+          <div class="pf-meta"><div class="pf-name">Ampeco</div><div class="pf-sector">EV Charging Software</div></div>
+        </a>
+        <a href="https://www.voltera-h2.com/" target="_blank" rel="noopener" class="pf-item" data-domain="voltera-h2.com" data-name="Voltera">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Voltera" /></div>
+          <div class="pf-meta"><div class="pf-name">Voltera</div><div class="pf-sector">Electrolyzer Technology</div></div>
+        </a>
+        <a href="https://coltera-trec.eu/" target="_blank" rel="noopener" class="pf-item" data-domain="coltera-trec.eu" data-name="Coltera">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Coltera" /></div>
+          <div class="pf-meta"><div class="pf-name">Coltera</div><div class="pf-sector">Electrochemical Heat Pump</div></div>
+        </a>
+        <a href="https://studio24.bg/" target="_blank" rel="noopener" class="pf-item" data-domain="studio24.bg" data-name="Studio24">
+          <div class="pf-logo-wrap"><img class="pf-logo" alt="Studio24" /></div>
+          <div class="pf-meta"><div class="pf-name">Studio24</div><div class="pf-sector">SaaS · Reservation Platform</div></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= PHILANTHROPY ============= -->
+  <section id="philanthropy">
+    <div class="container">
+      <div class="section-label reveal">— Philanthropy</div>
+      <h2 class="section-title reveal">Investing in the <em>next</em> generation.</h2>
+      <div class="philanthropy-block reveal">
+        <div class="philanthropy-text">
+          <h3>Fund <em>Compass</em></h3>
+          <p class="lead-line">The compounding returns on human capital are higher than on any other asset class.</p>
+          <p>As the founder and principal donor of Fund Compass, my mission is to direct capital toward initiatives that unlock the intellectual and entrepreneurial capacity of the next generation in Bulgaria. We fund and scale social entrepreneurship, education, and environmental protection projects&mdash;applying venture-like metrics to maximize social ROI.</p>
+          <a class="btn" href="https://www.fundcompass.bg/" target="_blank" rel="noopener">Visit Fund Compass <span class="arrow">↗</span></a>
+        </div>
+        <div class="pull-quote-card">
+          <div class="pull-quote-mark">&ldquo;</div>
+          <p class="pull-quote-text">Talent is universally distributed; opportunity is not. Fund Compass tries to bridge the gap by directing capital and mentorship to the Bulgarian students and entrepreneurs whose potential would otherwise be constrained.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= CONTACT ============= -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-label reveal">— Contact</div>
+      <h2 class="section-title reveal">Get in <em>touch</em>.</h2>
+      <p class="contact-tagline reveal">Open to conversations on deep tech, frontier hardware, AI, and the energy transition. Particularly interested in European founders building globally significant companies.</p>
+      <div class="contact-links reveal delay-1">
+        <a class="btn" href="https://www.linkedin.com/in/dimitar-enchev-7553455/" target="_blank" rel="noopener">LinkedIn <span class="arrow">↗</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============= FOOTER ============= -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <div>&copy; <span id="year"></span> Dimitar Enchev. All rights reserved.</div>
+        <div>Sofia · London</div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" is:inline>
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const isTouch = window.matchMedia('(hover: none)').matches;
+
+    // ---------- Lenis smooth scroll (dynamic import with graceful fallback) ----------
+    let lenis = null;
+    if (!prefersReduced) {
+      try {
+        const { default: Lenis } = await import('https://esm.sh/lenis@1.1.20');
+        lenis = new Lenis({
+          duration: 1.15,
+          easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+          smoothWheel: true,
+        });
+        const raf = (time) => {
+          lenis.raf(time);
+          requestAnimationFrame(raf);
+        };
+        requestAnimationFrame(raf);
+
+        // Smooth-scroll for in-page anchor links
+        document.querySelectorAll('a[href^="#"]').forEach((a) => {
+          a.addEventListener('click', (e) => {
+            const id = a.getAttribute('href');
+            if (id && id.length > 1) {
+              const target = document.querySelector(id);
+              if (target) {
+                e.preventDefault();
+                lenis.scrollTo(target, { offset: -40 });
+              }
+            }
+          });
+        });
+      } catch (err) {
+        console.warn('Lenis unavailable; falling back to native scroll', err);
+      }
+    }
+
+    // ---------- Fractal web (the single ambient background element) ----------
+    // Renders a sparse node-link network across the viewport. The cursor
+    // brightens nodes + lines within a soft radius — no separate cursor
+    // marker; the cursor effect IS the web.
+    {
+      const canvas = document.querySelector('.fractal-web');
+      if (canvas) {
+        const ctx = canvas.getContext('2d');
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+        let W = 0, H = 0;
+        let nodes = [];
+        const NODE_COUNT_BASE = 70;
+        const CONN_DIST = 170;
+        const BASE_DRIFT = 0.16;
+        const CURSOR_REACH = 260;      // px — radius of cursor's "torch"
+        const PARALLAX_MAX = 9;        // px — max canvas drift toward cursor
+        const PARALLAX_LERP = 0.045;   // smoothing factor (lower = laggier)
+        let scrollShimmer = 0;
+        let cursorX = -10000, cursorY = -10000;
+        let cursorActive = false;
+        let canvasOffsetX = 0, canvasOffsetY = 0;
+
+        function setup() {
+          const area = window.innerWidth * window.innerHeight;
+          const count = Math.round(NODE_COUNT_BASE * (area / (1280 * 800)));
+          W = window.innerWidth;
+          H = window.innerHeight;
+          canvas.width = W * dpr;
+          canvas.height = H * dpr;
+          canvas.style.width = W + 'px';
+          canvas.style.height = H + 'px';
+          ctx.setTransform(1, 0, 0, 1, 0, 0);
+          ctx.scale(dpr, dpr);
+          nodes = [];
+          for (let i = 0; i < Math.max(40, Math.min(140, count)); i++) {
+            const angle = Math.random() * Math.PI * 2;
+            nodes.push({
+              x: Math.random() * W,
+              y: Math.random() * H,
+              vx: Math.cos(angle) * BASE_DRIFT,
+              vy: Math.sin(angle) * BASE_DRIFT,
+              r: 0.7 + Math.random() * 1.2,
+              phase: Math.random() * Math.PI * 2,
+            });
+          }
+        }
+
+        function tickFrame(t) {
+          ctx.clearRect(0, 0, W, H);
+          scrollShimmer *= 0.92;
+          const shimmerNudge = scrollShimmer * 0.012;
+
+          // Subtle canvas parallax — drift the whole mesh toward cursor
+          const targetOX = cursorActive ? (cursorX / W - 0.5) * PARALLAX_MAX * 2 : 0;
+          const targetOY = cursorActive ? (cursorY / H - 0.5) * PARALLAX_MAX * 2 : 0;
+          canvasOffsetX += (targetOX - canvasOffsetX) * PARALLAX_LERP;
+          canvasOffsetY += (targetOY - canvasOffsetY) * PARALLAX_LERP;
+          canvas.style.transform =
+            'translate3d(' + canvasOffsetX.toFixed(2) + 'px, ' + canvasOffsetY.toFixed(2) + 'px, 0)';
+
+          // Update node positions
+          for (const n of nodes) {
+            n.x += n.vx + (Math.sin(n.phase + t * 0.0003) * 0.04);
+            n.y += n.vy + shimmerNudge;
+            if (n.x < -10) n.x = W + 10;
+            if (n.x > W + 10) n.x = -10;
+            if (n.y < -10) n.y = H + 10;
+            if (n.y > H + 10) n.y = -10;
+          }
+
+          // Cursor-local coords (compensate for the canvas translate)
+          const localCx = cursorX - canvasOffsetX;
+          const localCy = cursorY - canvasOffsetY;
+
+          // Pre-compute cursor proximity per node
+          const prox = new Array(nodes.length);
+          for (let i = 0; i < nodes.length; i++) {
+            if (!cursorActive) { prox[i] = 0; continue; }
+            const dx = nodes[i].x - localCx;
+            const dy = nodes[i].y - localCy;
+            const d2 = dx * dx + dy * dy;
+            prox[i] = d2 > CURSOR_REACH * CURSOR_REACH
+              ? 0
+              : 1 - Math.sqrt(d2) / CURSOR_REACH;
+          }
+
+          // Lines between nearby nodes — softened cursor boost
+          for (let i = 0; i < nodes.length; i++) {
+            for (let j = i + 1; j < nodes.length; j++) {
+              const dx = nodes[i].x - nodes[j].x;
+              const dy = nodes[i].y - nodes[j].y;
+              const d2 = dx * dx + dy * dy;
+              if (d2 < CONN_DIST * CONN_DIST) {
+                const d = Math.sqrt(d2);
+                const baseAlpha = (1 - d / CONN_DIST) * 0.13;
+                const boost = (prox[i] + prox[j]) * 0.5;
+                const a = baseAlpha * (1 + boost * 1.5);
+                ctx.strokeStyle = 'rgba(244, 185, 66, ' + Math.min(0.5, a).toFixed(3) + ')';
+                ctx.lineWidth = 0.5 + boost * 0.2;
+                ctx.beginPath();
+                ctx.moveTo(nodes[i].x, nodes[i].y);
+                ctx.lineTo(nodes[j].x, nodes[j].y);
+                ctx.stroke();
+              }
+            }
+          }
+
+          // Nodes — softer cursor boost
+          for (let i = 0; i < nodes.length; i++) {
+            const n = nodes[i];
+            const breath = 0.55 + 0.25 * Math.sin(n.phase + t * 0.0008);
+            const baseAlpha = 0.26 * breath;
+            const a = baseAlpha * (1 + prox[i] * 1.3);
+            const r = n.r * (1 + prox[i] * 0.4);
+            ctx.fillStyle = 'rgba(244, 185, 66, ' + Math.min(0.6, a).toFixed(3) + ')';
+            ctx.beginPath();
+            ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+            ctx.fill();
+          }
+
+          if (!prefersReduced) requestAnimationFrame(tickFrame);
+        }
+
+        // Cursor tracking
+        window.addEventListener('pointermove', (e) => {
+          cursorX = e.clientX;
+          cursorY = e.clientY;
+          cursorActive = true;
+        }, { passive: true });
+        window.addEventListener('pointerleave', () => { cursorActive = false; });
+        window.addEventListener('blur',         () => { cursorActive = false; });
+
+        window.addEventListener('resize', setup, { passive: true });
+        setup();
+
+        if (prefersReduced) {
+          tickFrame(0); // single static frame
+        } else {
+          if (lenis) {
+            lenis.on('scroll', ({ velocity }) => {
+              scrollShimmer = Math.min(20, scrollShimmer + Math.abs(velocity) * 4);
+            });
+          } else {
+            let lastY = window.scrollY;
+            window.addEventListener('scroll', () => {
+              const dy = window.scrollY - lastY;
+              lastY = window.scrollY;
+              scrollShimmer = Math.min(20, scrollShimmer + Math.abs(dy) * 0.5);
+            }, { passive: true });
+          }
+          requestAnimationFrame(tickFrame);
+        }
+      }
+    }
+
+    // ---------- Magnetic buttons: subtle pull toward cursor ----------
+    if (!prefersReduced && !isTouch) {
+      const magneticEls = document.querySelectorAll('.btn, .nav-links a, .venture-name a');
+      magneticEls.forEach((el) => {
+        let rafM = null;
+        let dx = 0, dy = 0;
+        const apply = () => {
+          el.style.transform = `translate3d(${dx}px, ${dy}px, 0)`;
+          rafM = null;
+        };
+        el.addEventListener('pointermove', (e) => {
+          const r = el.getBoundingClientRect();
+          const cx = r.left + r.width / 2;
+          const cy = r.top + r.height / 2;
+          // Pull strength: 22% of distance from element center toward cursor
+          dx = (e.clientX - cx) * 0.22;
+          dy = (e.clientY - cy) * 0.22;
+          if (!rafM) rafM = requestAnimationFrame(apply);
+        }, { passive: true });
+        el.addEventListener('pointerleave', () => {
+          dx = 0; dy = 0;
+          el.style.transform = '';
+        });
+      });
+    }
+
+    // ---------- Parallax (Lenis-driven if available, else native scroll) ----------
+    const parallaxEls = document.querySelectorAll('[data-parallax]');
+    function applyParallax(scroll) {
+      parallaxEls.forEach((el) => {
+        const speed = parseFloat(el.dataset.parallax) || 0;
+        el.style.transform = `translate3d(0, ${scroll * speed}px, 0)`;
+      });
+    }
+    if (lenis) {
+      lenis.on('scroll', ({ scroll }) => applyParallax(scroll));
+    } else if (!prefersReduced) {
+      window.addEventListener('scroll', () => applyParallax(window.scrollY), { passive: true });
+    }
+
+    // ---------- Footer year ----------
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ---------- Scroll reveals ----------
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // ---------- Hero stat counters (run on viewport entry) ----------
+    const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
+    function runCounter(el) {
+      const target = parseFloat(el.dataset.target);
+      const prefix = el.dataset.prefix || '';
+      const suffix = el.dataset.suffix || '';
+      const dur = 1800;
+      const start = performance.now();
+      function step(now) {
+        const t = Math.min(1, (now - start) / dur);
+        const v = easeOutCubic(t) * target;
+        el.textContent = prefix + (target % 1 === 0 ? Math.floor(v) : v.toFixed(1)) + suffix;
+        if (t < 1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    }
+    const statIO = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) {
+          // Delay to align with the hero stats fade-in (1.9s into the entrance sequence)
+          setTimeout(() => runCounter(e.target), 200);
+          statIO.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    document.querySelectorAll('.stat-num').forEach((el) => statIO.observe(el));
+
+    // ---------- Venture cards: pointer-tracking radial glow ----------
+    document.querySelectorAll('[data-mx-track]').forEach(el => {
+      el.addEventListener('pointermove', (e) => {
+        const r = el.getBoundingClientRect();
+        el.style.setProperty('--mx', ((e.clientX - r.left) / r.width * 100) + '%');
+        el.style.setProperty('--my', ((e.clientY - r.top) / r.height * 100) + '%');
+      });
+    });
+
+    // ---------- Card 3D tilt (Venture + Portfolio) ----------
+    if (!isTouch) {
+      const tiltMax = 6; // degrees
+      document.querySelectorAll('.venture, .pf-item').forEach((card) => {
+        let rafTilt = null;
+        let pendingX = 0, pendingY = 0;
+        const flushTilt = () => {
+          card.style.setProperty('--ry', pendingX + 'deg');
+          card.style.setProperty('--rx', pendingY + 'deg');
+          rafTilt = null;
+        };
+        card.addEventListener('pointermove', (e) => {
+          const r = card.getBoundingClientRect();
+          const px = (e.clientX - r.left) / r.width - 0.5;  // -0.5..0.5
+          const py = (e.clientY - r.top) / r.height - 0.5;
+          pendingX =  px * tiltMax;
+          pendingY = -py * tiltMax;
+          if (!rafTilt) rafTilt = requestAnimationFrame(flushTilt);
+        }, { passive: true });
+        card.addEventListener('pointerleave', () => {
+          card.style.setProperty('--rx', '0deg');
+          card.style.setProperty('--ry', '0deg');
+        });
+      });
+    }
+
+    // ---------- Cascading logo loader ----------
+    function buildSources(domain) {
+      return [
+        `https://logo.clearbit.com/${domain}?size=256`,
+        `https://cdn.brandfetch.io/${domain}/w/256/h/256?c=1idV5p2c0p_fmwQv2pp`,
+        `https://www.google.com/s2/favicons?domain=${domain}&sz=128`,
+        `https://icons.duckduckgo.com/ip3/${domain}.ico`
+      ];
+    }
+    document.querySelectorAll('.pf-item').forEach(item => {
+      const local = item.dataset.local;
+      const domain = item.dataset.domain;
+      const name = item.dataset.name || domain;
+      const img = item.querySelector('.pf-logo');
+      if (!img) return;
+
+      // Local override: use the file we ship in /public, no remote fallback
+      if (local) {
+        img.src = local;
+        return;
+      }
+      if (!domain) return;
+
+      const sources = buildSources(domain);
+      let i = 0;
+      const tryNext = () => {
+        if (i >= sources.length) {
+          const fb = document.createElement('div');
+          fb.className = 'pf-fallback';
+          fb.textContent = name;
+          img.replaceWith(fb);
+          return;
+        }
+        img.src = sources[i++];
+      };
+      img.onerror = tryNext;
+      tryNext();
+    });
+  </script>
+</BaseLayout>
