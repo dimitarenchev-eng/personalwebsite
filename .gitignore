@@ -26,3 +26,9 @@ pnpm-debug.log*
 
 # Local reference (keep checked in if you want a record of the first draft)
 # reference/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
